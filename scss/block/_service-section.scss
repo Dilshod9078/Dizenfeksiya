@@ -1,0 +1,79 @@
+.service-section {
+    margin-bottom: 120px;
+}
+.service__content {
+    margin-left: 32px;
+    width: 335px;
+    margin-bottom: 48px;
+}
+.service__content-title {
+    font-family: Unbounded;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #020C31;
+}
+.service__content-text {
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;    
+}
+.service__box-content{
+    display: flex;
+    gap: 16px;
+}
+.service__box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 443px;
+    background: #F3F6F6;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.service__box-list {
+    padding: 48px 74px 40px 32px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.bob{
+    display: flex;
+    justify-content: end;
+}
+.service__box-item-b{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #020C31;    
+    margin-bottom: 10px;
+    height: 80px;
+}
+.service__box-item {
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#03ADE3;
+}
+.service__box-item-f{
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00A9B3;    
+}

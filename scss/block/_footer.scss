@@ -1,0 +1,40 @@
+.site-footer{
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    margin-left: 32px;
+}
+.footer__content{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer__box-content{
+    display: flex;
+    gap: 20px;
+}
+.footer__box-line{
+    margin-top: 18px;
+    margin-bottom: 26px;
+    width: 100%;
+    display: flex;
+    background: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    height: 1px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 30px;
+    gap: 16px;
+    background: #F2F2F2;
+}

@@ -1,0 +1,107 @@
+.form-section{
+    margin-bottom: 30px;
+}
+.form {
+    background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%);
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    gap: 108px;
+    position: relative;
+    z-index: 2;
+}
+.form::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/form-bg.png);
+    background-repeat: no-repeat;
+    width: 461px;
+    height: 437px;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+.form__content {
+    width: 380px;
+    padding: 28px 24px 32px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+.form__content-title {
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242825;    
+    margin-bottom: 30px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.label__checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.name {
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: #F2F2F2;
+}
+.name::placeholder{
+    padding-left: 20px;
+}
+.checkbox-text{
+    padding-top: 3px;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.tel {
+    height: 48px;
+    top: 4202px;
+    left: 96px;
+    border-radius: 8px;
+    border: none;
+    background: #F2F2F2;
+}
+.tel::placeholder{
+    padding-left: 20px;
+}
+.checkbox{
+    width: 16px;
+    height: 20px;
+}
+.form__btn {
+    background:#242825;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;    
+}
+.form__box{
+    width: 338px;
+}
+.form__title {
+    margin-top: 20px;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FAFAFA;   
+}

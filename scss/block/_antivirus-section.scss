@@ -1,0 +1,60 @@
+.antivirus-section{
+    margin-top: 96px;
+    margin-bottom: 120px;
+}
+.antivirus{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    padding-right: 120px;
+    background-image: url(../images/antivirus.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: right;
+    border-radius: 16px;
+}
+.antivirus__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 300px;
+}
+.antivirus-title {
+    font-family: Unbounded;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FAFAFA;    
+    margin-bottom: 15px;
+}
+.antivirus-item{
+    width: 558px;
+    margin-bottom: 60px;
+}
+.antivirus-text {
+    width: 309px;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.antivirus-btn {
+    width: 218px;
+    padding: 13px 51px;
+    border-radius: 20px;
+    color: white;
+    gap: 16px;
+    background: #3360FF;
+    border: none;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+}

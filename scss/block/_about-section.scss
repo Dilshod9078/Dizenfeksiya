@@ -1,0 +1,41 @@
+.about {
+    margin-top: 120px;
+}
+.about__title {
+    font-family: Unbounded;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #020C31;
+    margin-bottom: 32px;
+}
+.about__content {
+    display: flex;
+    gap: 70px;
+}
+.about__content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 339px;
+}
+.about__content-item-strong{
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #020C31;    
+}
+.about__content-item {
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #676D83;    
+}
